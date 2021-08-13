@@ -1,0 +1,24 @@
+{
+  "name": "remixd",
+  "version": "1.0.0",
+  "description": "desc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "dabasov",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.4",
+    "hardhat": "^2.6.0",
+    "web3": "^1.5.1"
+  }
+}
