@@ -19,8 +19,4 @@ contract TestNFT is ERC721 {
     function mint(address to, uint256 tokenId) public virtual {
         _safeMint(to, tokenId);
     }
-
-    function forwardToReceiver(address _to, uint256 _tokenId) public {
-        IERC721Receiver(_to).onERC721Received(address(this), msg.sender, _tokenId, "");
-    }
 }
